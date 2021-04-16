@@ -13,7 +13,7 @@
       })
       */
       //Asynchronous
-      fetch('html').then(function(response){
+      fetch('css').then(function(response){
         response.text().then(function(text){
           document.querySelector('article').innerHTML = text;
 		  alert(text);
